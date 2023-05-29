@@ -1,0 +1,18 @@
+{
+  "name": "yuuki-cgfs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "run-p start-compile start-run",
+    "start-compile": "tsc --watch",
+    "start-run": "browser-sync start --server -w"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.29.1",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.0.4"
+  }
+}
